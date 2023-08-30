@@ -32,6 +32,7 @@ public class Main {
                 }catch (NumberFormatException e) {
                     JOptionPane.showMessageDialog(null, "Valor incorrecto ");
                 }
+
                 if (cambio.equals("Pesos Colombianos A Euros")){
                     double dolares = pesos / 4098;
                     JOptionPane.showMessageDialog(null, pesos + "Pesos Colombianos son: " + formatearDivisas.format(dolares)
@@ -41,9 +42,24 @@ public class Main {
                     double euro = pesos / 4479;
                     JOptionPane.showMessageDialog(null, pesos + "Pesos Colombianos son: " + formatearDivisas.format(euro)
                             + " Euros. ");
+
+                }else if(cambio.equals("Pesos Colombianos A Libras Esterlinas £")){
+                    double libras = pesos / 5213;
+                    JOptionPane.showMessageDialog(null, pesos + "Pesos Colombianos son: " + formatearDivisas.format(libras)
+                            + " Libras Esterlinas. ");
+
+                }else if(cambio.equals("Pesos Colombianos A Yen ¥")){
+                    double yen = pesos / 28;
+                    JOptionPane.showMessageDialog(null, pesos + "Pesos Colombianos son: " + formatearDivisas.format(yen)
+                            + " Yenes. ");
+
+                }else if(cambio.equals("Pesos Colombianos A Won ₩")){
+                    double won = pesos / 3010;
+                    JOptionPane.showMessageDialog(null, pesos + "Pesos Colombianos son: " + formatearDivisas.format(won)
+                            + " Wons. ");
                 }
+
             }
         }
-
     }
 }
