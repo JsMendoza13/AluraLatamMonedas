@@ -14,6 +14,10 @@ public class Main {
         }
         if (escoger ==0) {
             DecimalFormat formatearDivisas = new DecimalFormat("#.##");
+            boolean siguePrograma = true;
+            while (siguePrograma){
+                String [] optiones = {"Pesos Colombianos a Euros"};
+            }
         }
 
     }
