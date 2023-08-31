@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.text.DecimalFormat;
 
 public class Main {
+
+    //Creado con JDK 17
     public static void main(String[] args) {
         Object[] options = {"Convertir Divisas","Salir"};
         int escoger = JOptionPane.showOptionDialog(null, "Bienvenido a ChangeMoney Js", "ChangeMoney Js",
